@@ -18,8 +18,6 @@ O objetivo desse projeto é criar uma automação desktop da Calculadora do Wind
 
 ```
 |--- apps
-|--- bin
-|--- obj
 |--- tests
 |--- csharp-winappdriver.slnx
 |--- csharp_winappdriver.csproj
