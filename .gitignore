@@ -1,0 +1,30 @@
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Visual Studio / Rider / IDEs
+.vs/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.swp
+
+# Saída de compilação e publicação do .NET
+bin/
+obj/
+TestResults/
+Publish/
+Out/
+
+# Pacotes (NuGet)
+*.nupkg
+packages/
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Logs
+*.log
