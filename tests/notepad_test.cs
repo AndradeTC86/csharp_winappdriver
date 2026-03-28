@@ -41,13 +41,8 @@ namespace WinAppDriver.Tests
             _notepad.TextEditor().SendKeys(Keys.Control + "a");
             _notepad.TextEditor().SendKeys(Keys.Delete);
 
-            // Mandando devagar ajuda a nao perder teclas
             var textToSend = "Test Automation with WinAppDriver";
-
             _notepad.TextEditor().SendKeys(textToSend);
-
-
-            // Remover o caractere extra \r que pode vir no fim do texto do RichEdit
             string text = _notepad.TextEditor().Text.TrimEnd('\r', '\n', '\0');
 
             Assert.That(text, Is.EqualTo(textToSend));
